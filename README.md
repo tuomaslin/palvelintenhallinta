@@ -14,4 +14,4 @@ Testi testi
 
 [My wordpress site](https://tuomaslintula.wordpress.com/)
 
-![Image](/home/thomal/Pictures/markdown.png)
+![Image](/pics/markdown.png)
