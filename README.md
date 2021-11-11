@@ -10,6 +10,11 @@ Repository for palvelinten hallinta course
 
 ## Testing MarkDown
 
+- this
+- is
+- a
+- list
+
 [My wordpress site](https://tuomaslintula.wordpress.com/)
 
 ![Image](/pics/picture.png)
