@@ -1,4 +1,4 @@
-# palvelintenhallinta
+# Palvelintenhallinta
 
 Repository for palvelinten hallinta course
 
@@ -9,3 +9,5 @@ Repository for palvelinten hallinta course
 	`how to write code here`
 
 Testi testi
+
+Lorem ipsum
