@@ -8,8 +8,6 @@ Repository for palvelinten hallinta course
 
 	`how to write code here`
 
-Testi testi
-
 ## Testing MarkDown
 
 [My wordpress site](https://tuomaslintula.wordpress.com/)
