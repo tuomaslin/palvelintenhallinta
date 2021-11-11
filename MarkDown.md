@@ -17,4 +17,13 @@ Tässähän tämä tulee tehtyä.
 
 ## b) Pull first
 
+Muokkasin kahta tiedostoa __markDown.md__ ja __README.md__. Ajoin komennot
 
+        git add --all
+        git pull  
+        git commit 
+        git push
+
+![Image](/pics/twoedits.png)
+
+ja tarkistin GitHubista, että muutokset olivat menneet läpi
