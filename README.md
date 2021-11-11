@@ -10,4 +10,8 @@ Repository for palvelinten hallinta course
 
 Testi testi
 
-Lorem ipsum
+## Testing MarkDown
+
+[My wordpress site](https://tuomaslintula.wordpress.com/)
+
+![Image](/home/thomal/Pictures/markdown.png)
