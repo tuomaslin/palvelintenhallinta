@@ -12,4 +12,4 @@ Repository for palvelinten hallinta course
 
 [My wordpress site](https://tuomaslintula.wordpress.com/)
 
-![Image](/pics/markdown.png)
+![Image](/pics/picture.png)
