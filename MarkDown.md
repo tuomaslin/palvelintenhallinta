@@ -2,6 +2,8 @@
 
 ## z) Lue ja tiivistä
 
+[https://commonmark.org/help/](https://commonmark.org/help/)
+
 - Kappalaiden väliin aina tyhjä rivi!
 - Käytettäessä `_kursivoitu_` saadaan _kursivoitu_ teksti
 - Käytettäessä `__lihavoitu__` saadaan __lihavoitu__ teksti
@@ -67,7 +69,7 @@ Asensin tähän Debian11 virtuaalikoneeseen `salt-masterin` ja `salt-minionin`
 
 	sudo apt-get install -y salt-master salt-minion
 
-Laitoin `/etc/salt/minion` tiedostoon koneen IP-osoitteen ja määritin sille id:n.
+Lisäsin `/etc/salt/minion` tiedostoon koneen IP-osoitteen ja määritin sille id:n.
 
 ![Image](/pics/minionip.png)
 
@@ -82,7 +84,8 @@ ja tein tarvittavat kansiot ja tiedostot
 	sudo mkdir -p /srv/salt/apache2
 	sudoedit /srv/salt/apache2/init.sls
 
-Kirjoitin `init.sls` tiedostoon seuraavanlaisen sisällön
+Kirjoitin `init.sls` tiedostoon seuraavanlaisen sisällön [https://stackoverflow.com/questions/35229535/how-to-execute-pkg-refresh-db-in-a-salt-state](https://stackoverflow.com/questions/35229535/how-to-execute-pkg-refresh-db-in-a-salt-state)
+
 
 ![Image](/pics/init.png)
 
@@ -121,4 +124,4 @@ Tarkistin vielä, että sivu oli tosiaan muuttunut.
 
 ## Tekijä
 
-Tuomas Lintula
+Tuomas Lintula, 2021
