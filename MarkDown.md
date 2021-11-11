@@ -84,7 +84,7 @@ ja tein tarvittavat kansiot ja tiedostot
 
 Kirjoitin `init.sls` tiedostoon seuraavanlaisen sisällön
 
-![Image](/pics/init.sls.png)
+![Image](/pics/init.png)
 
 ja loin samaan kansioon `index.html` tiedoston. Käytin tiedoston pohjana
 [Tero Karvisen](https://terokarvinen.com/2012/short-html5-page/) HTML5 sivun luurankoa.
@@ -95,6 +95,7 @@ Ajoin komennon
 
 ja sain toivotun tuloksen.
 
+- Paketit päivitettiin
 - Apache2 asennettiin
 - Varmistettiin, että se on käynnissä
 - Korvattiin Default page omalla sivulla
@@ -111,6 +112,7 @@ Tarkistin vielä, että sivu oli tosiaan muuttunut.
 
 - Kurssin sivut: [https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-2021-autumn/](https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-2021-autumn/)
 - Raportointiohje: [https://terokarvinen.com/2006/raportin-kirjoittaminen-4/](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
+- pkg.refresh_db: [https://stackoverflow.com/questions/35229535/how-to-execute-pkg-refresh-db-in-a-salt-state](https://stackoverflow.com/questions/35229535/how-to-execute-pkg-refresh-db-in-a-salt-state)
 
 ## Infoa
 
