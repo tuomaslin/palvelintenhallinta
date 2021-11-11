@@ -27,3 +27,5 @@ Muokkasin kahta tiedostoa __markDown.md__ ja __README.md__. Ajoin komennot
 ![Image](/pics/twoedits.png)
 
 ja tarkistin GitHubista, että muutokset olivat menneet läpi
+
+![Image](/pics/checkfromgithub.png)
