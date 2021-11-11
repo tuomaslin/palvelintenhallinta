@@ -9,7 +9,8 @@
 - Linkki saadaan `[Link](url)`
 - Kuva saadaan `![Image](url)`
 - Lista - merkillä allekkain
-- Koodi sarake tab ja `näiden (``) merkkien väliin koodia`
+- Koodi sarake: tab ja tekstiä
+- Tekstissä `näiden (``) merkkien väliin tekstiä`
 
 ## a) Tee raportti MarkDownina.
 
@@ -18,11 +19,11 @@ Tässähän tämä tulee tehtyä.
 ## b) Pull first
 
 Muokkasin kahta tiedostoa __markDown.md__ ja __README.md__. Ajoin komennot
-	```
+
 	git add --all
 	git pull
 	git commit
 	git push
-	```
+
 ja tarkistin GitHubista, että muutokset olivat menneet läpi
-![Image](/pics/)
+![Image](/pics/twoedits.png)
