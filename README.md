@@ -2,11 +2,11 @@
 
 Repository for palvelinten hallinta course
 
-	`Testing out`
+	Testing out
 
 ## Header
 
-	`how to write code here`
+	how to write code here
 
 ## Testing MarkDown
 

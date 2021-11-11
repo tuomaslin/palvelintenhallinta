@@ -60,3 +60,63 @@ ja muutokset olivat poistuneet
 
 ![Image](/pics/gitreset.png)
 
+## e) Formula
+
+En ehkä ihan tajunnut tämän tehtävän ideaa, mutta yritin kuitenkin.
+Asensin tähän Debian11 virtuaalikoneeseen `salt-masterin` ja `salt-minionin`
+
+	sudo apt-get install -y salt-master salt-minion
+
+Laitoin `/etc/salt/minion` tiedostoon koneen IP-osoitteen ja määritin sille id:n.
+
+![Image](/pics/minionip.png)
+
+Käynnistin molemmat uudelleen ja hyväksyin avaimen komennoilla
+
+	sudo systemctl restart salt-master
+	sudo systemctl restart salt-minion
+	sudo salt-key -a minion
+
+ja tein tarvittavat kansiot ja tiedostot
+
+	sudo mkdir -p /srv/salt/apache2
+	sudoedit /srv/salt/apache2/init.sls
+
+Kirjoitin `init.sls` tiedostoon seuraavanlaisen sisällön
+
+![Image](/pics/init.sls.png)
+
+ja loin samaan kansioon `index.html` tiedoston. Käytin tiedoston pohjana
+[Tero Karvisen](https://terokarvinen.com/2012/short-html5-page/) HTML5 sivun luurankoa.
+
+Ajoin komennon
+
+	sudo salt '*' state.apply apache2
+
+ja sain toivotun tuloksen.
+
+- Apache2 asennettiin
+- Varmistettiin, että se on käynnissä
+- Korvattiin Default page omalla sivulla
+
+![Image](/pics/stateapply1.png)
+
+![Image](/pics/stateapply2.png)
+
+Tarkistin vielä, että sivu oli tosiaan muuttunut.
+
+![Image](/pics/newpage.png)
+
+## Lähteet/linkit
+
+- Kurssin sivut: [https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-2021-autumn/](https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-2021-autumn/)
+- Raportointiohje: [https://terokarvinen.com/2006/raportin-kirjoittaminen-4/](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
+
+## Infoa
+
+- Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 3 tai uudempi) mukaisesti. [http://www.gnu.org/licenses/gpl.html](http://www.gnu.org/licenses/gpl.html)
+- Pohjana Tero Karvinen 2021: [https://terokarvinen.com/](https://terokarvinen.com/)
+
+## Tekijä
+
+Tuomas Lintula
