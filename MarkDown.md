@@ -34,7 +34,7 @@ ja tarkistin GitHubista, että muutokset olivat menneet läpi
 
 ## c) Kaikki kirjataan
 
-`git log --pretty=oneline` näyttää kaikki commit viestit ja niiden SHA avaimen
+`git log --pretty=oneline` näyttää kaikki commit viestit ja niiden tiivisteet (Hash).
 
 ![Image](/pics/gitlog.png)
 
