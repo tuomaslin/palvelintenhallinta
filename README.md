@@ -14,6 +14,7 @@ Repository for palvelinten hallinta course
 - is
 - a
 - list
+- right ?
 
 [My wordpress site](https://tuomaslintula.wordpress.com/)
 
